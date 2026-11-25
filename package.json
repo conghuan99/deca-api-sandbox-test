@@ -1,0 +1,16 @@
+{
+  "name": "deca-sandbox-task",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Community helper for the DECA API sandbox task (test USDC on Base Sepolia).",
+  "scripts": {
+    "start": "tsx main.mts"
+  },
+  "dependencies": {
+    "@x402/core": "^2.32.0",
+    "@x402/evm": "^2.32.0",
+    "tsx": "^4.23.15",
+    "viem": "^2.58.6"
+  }
+}
